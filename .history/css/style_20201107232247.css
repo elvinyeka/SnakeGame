@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 50px;
+}
+
+.ground {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #cccccc;
+}
+
+.box{
+    width:50px;
+    height: 50px;
+    padding:5px;
+}
+
+.snakeBody {
+    background-color: #38a03d;
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.snakeHead {
+    background-color: #067c0c;
+    background-size: cover;
+    border-radius: 10%;
+}
+
+.food {
+    background-color: #7c0606;
+    background-size: cover;
+    
+}
